@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1: Portfolio Site with HTML and CSS</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font (Roboto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <div class="bg-spinning">
+        <div id="bg-spining-image">
+            <img src="./resources/ship-wheel.png" alt="Ship Wheel">
+        </div>
+    </div>
+    <!-- Header and Navbar  -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <h1><a href="#">AI ANIS</a></h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Website -->
+    <main>
+        <div class="container">
+
+            <!-- Home Section -->
+            <section id="home">
+                <div class="content">
+                    <div class="text">
+                        <h1>WELCOME TO MY PORTFOLIO</h1>
+                        <span id="intro-text-name">MY NAME IS <br> <span>ANISUR ISLAM</span></span>
+                        <p>Full Stack Web Developer</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about">
+                <h1 class="section-title">ABOUT ME</h1>
+                <div class="content">
+                    <div class="about-text">
+                        <h3>Hello! It's Anisur.</h3>
+                        <p>
+                            I am a passionate Full Stack Web Developer from Bangladesh. Currently, I am enrolled in the
+                            MERN Stack Career Path Batch 3 at Interactive Cares, which has been an incredible journey of
+                            learning and growth. My educational background is at the Higher Secondary level, and I am a
+                            dedicated student who is always eager to learn more.
+                        </p>
+                        <p>
+                            Web development is not just a profession for me; it is a hobby that I deeply love and enjoy.
+                            I take great pride in my skills and expertise in HTML, CSS, JavaScript, React, Node.js,
+                            MongoDB, and Express.js. These technologies allow me to create dynamic and responsive web
+                            applications that provide excellent user experiences.
+                        </p>
+                        <p>
+                            My journey in web development has been driven by a strong passion for technology and a
+                            desire to continuously improve my skills. I am always excited to take on new challenges and
+                            projects, and I look forward to contributing to innovative and impactful web solutions.
+                        </p>
+                    </div>
+
+                    <div class="expertise">
+                        <h2 id="expertise-title">EXPERTISE</h2>
+                        <div class="expertise-graph-area">
+                            <div class="expertise-graph html" title="HTML, 95%">
+                                <div class="icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="graph">
+                                    <div class="inner-graph html-graph">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expertise-graph css" title="CSS, 90%">
+                                <div class="icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="graph">
+                                    <div class="inner-graph css-graph">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expertise-graph js" title="JavaScript, 85%">
+                                <div class="icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="graph">
+                                    <div class="inner-graph js-graph">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expertise-graph react" title="React, 90%">
+                                <div class="icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="graph">
+                                    <div class="inner-graph react-graph">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expertise-graph node" title="NodeJS, 85%">
+                                <div class="icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="graph">
+                                    <div class="inner-graph node-graph">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expertise-graph mongo" title="MongoDB, 80%">
+                                <div class="icon">
+                                    <i class="fa-brands fa-envira"
+                                        style="transform: rotate(45deg); background: var(--primary-color); background-clip: text;"></i>
+                                </div>
+                                <div class="graph">
+                                    <div class="inner-graph mongo-graph">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expertise-graph express" title="ExpressJS, 90%">
+
+                                <div class="icon">
+                                    <img src="./resources/icons8-express-js.svg" alt="ExpressJS Icon"
+                                        style="width: 30px; height: 30px; background: var(--primary-color);">
+                                </div>
+                                <div class="graph">
+                                    <div class="inner-graph express-graph">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Section -->
+            <section id="projects">
+                <h1 class="section-title">MY PROJECTS</h1>
+                <div class="content">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="./resources/bmi-calculator.jpeg" alt="BMI Calculator">
+                        </div>
+                        <div class="project-text">
+                            <h3>BMI Calculator</h3>
+                            <a href="https://anisurislam.github.io/100DaysOfCode/Day6_(BMICalculator)/index.html">
+                                Visit Site
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="./resources/stopwatch.jpeg" alt="Stopwatch">
+                        </div>
+                        <div class="project-text">
+                            <h3>Stopwatch</h3>
+                            <a href="https://anisurislam.github.io/100DaysOfCode/Day7_(Stopwatch)/index.html">
+                                Visit Site
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="./resources/youtube_landing_page.jpeg" alt="Youtube Landing Page">
+                        </div>
+                        <div class="project-text">
+                            <h3>Youtube Landing Page</h3>
+                            <a href="https://anisurislam.github.io/100DaysOfCode/Day4_(YoutubeLandingPage)/index.html">
+                                Visit Site
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="./resources/usage_graph.jpeg" alt="Usage Graph">
+                        </div>
+                        <div class="project-text">
+                            <h3>Usage Graph</h3>
+                            <a href="https://anisurislam.github.io/100DaysOfCode/Day1_(UsageGraph)/index.html">
+                                Visit Site
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="./resources/light_dark_mode.jpeg" alt="Light Dark Mode">
+                        </div>
+                        <div class="project-text">
+                            <h3>Dark Mode Toggle</h3>
+                            <a
+                                href="https://anisurislam.github.io/100DaysOfCode/Day3_(LightAndDarkModeToggle)/index.html">
+                                Visit Site
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="./resources/navbar_height_changer.jpeg" alt="Navbar Height Chagner">
+                        </div>
+                        <div class="project-text">
+                            <h3>Dynamic Navbar</h3>
+                            <a
+                                href="https://anisurislam.github.io/100DaysOfCode/Day2_(NavbarHeightChangeOnScroll)/index.html">
+                                Visit Site
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="./resources/100DayOfCode.jpeg" alt="100DaysOfCode">
+                        </div>
+                        <div class="project-text">
+                            <h3>100 Days of Code</h3>
+                            <a href="https://anisurislam.github.io/100DaysOfCode/">
+                                Visit Site
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+    </main>
+    <!-- Contact / Footer Section -->
+    <footer id="contact">
+        <h1 class="section-title">CONTACT ME</h1>
+        <div class="content">
+            <div class="contact-details">
+                <p><i class="fa-solid fa-envelope"></i> aianis012355@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +880 170 556 0610</p>
+                <p><i class="fa-solid fa-location-dot"></i> Sirajganj, Bangladesh</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anisurislam/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/anisurislam" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/anisurislam" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/a.i.anis01" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <fieldset>
+                        <legend>Send me a message</legend>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Enter Your Message"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <p>Copyright &copy; 2024 Anisur Islam</p>
+    </footer>
+</body>
+
+</html>
